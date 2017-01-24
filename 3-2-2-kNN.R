@@ -34,5 +34,5 @@ for(k in 1:20) {
   print(paste('Best',as.character(best),collapse = ' '))
 }
 
-res <- knn(train, c(57,90), lb, k=2)
+res <- knn(train, c(57,90), lb, k=best)
 print(res)
